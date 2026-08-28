@@ -1,0 +1,4 @@
+node_modules/
+.alexa-auth.json
+dump.json
+dump.*.json
