@@ -8,6 +8,10 @@ description: Diagnose unexplained Amazon Alexa/Echo behaviour - a device that sp
 An Echo does something on a schedule. The Alexa app shows no routine that
 explains it. This skill finds out what is actually registered server-side.
 
+Independent and unofficial — no affiliation with or endorsement by Amazon.
+Alexa, Echo and Amazon are Amazon.com, Inc. trademarks. It speaks Amazon's
+private, undocumented endpoints, not a public API.
+
 **The single most useful fact in this skill:** `/api/behaviors/v2/automations`
 is scoped to the **authenticated customer id**. A routine owned by another adult
 profile in the same Amazon Household is *absent* from the response — not hidden,

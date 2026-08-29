@@ -6,6 +6,12 @@ account.
 
 Read-only: every probe is a GET. It reports; you delete through the Alexa app.
 
+**Disclaimer:** an independent, unofficial tool with no affiliation to or
+endorsement by Amazon. Alexa, Echo and Amazon are trademarks of Amazon.com,
+Inc. or its affiliates. It uses Amazon's private, undocumented endpoints via
+the third-party `alexa-remote2` / `alexa-cookie2` libraries, not a public API —
+see [Caveats](#caveats).
+
 ## The short version
 
 `GET /api/behaviors/v2/automations` is scoped to the **authenticated customer
